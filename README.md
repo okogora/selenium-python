@@ -21,6 +21,8 @@
 
 **Решение:**
 
+Скринкаст запуска теста: https://yadi.sk/i/-PLfueGjBArVYg (2,3 Мб)
+
 **Инструкция для запуска теста (MacOS):**
 
 1. Скачать и установить python 3: https://www.python.org/downloads/.

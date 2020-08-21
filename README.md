@@ -29,25 +29,35 @@
 
 2. Установить selenium:
 
+```
 pip3 install selenium
+```
 
 3. Скачать и установить версию chromedriver, соответствующую версии браузера Chrome: https://sites.google.com/a/chromium.org/chromedriver/downloads. Добавить путь к chromedriver'у в PATH.
 
 4. Скачать проект smartechQA_Mac. Распаковать, открыть файл test_distance.py и прописать путь к chromedriver'у, например:
 
-driver = webdriver.Chrome('/Users/sereddos/selenium/chromedriver').
+```
+driver = webdriver.Chrome('/Users/sereddos/selenium/chromedriver')
+```
 
 5. В консоли перейти в папку проекта и установить виртуальное окружение:
 
+```
 pip install pipenv
+```
 
 6. Установить pytest:
 
+```
 pipenv install pytest --dev
+```
 
 7. Запустить тест с помощью команды:
 
+```
 pipenv run python -m pytest
+```
 
 ### Инструкция для запуска теста (Windows)
 
@@ -55,18 +65,26 @@ pipenv run python -m pytest
 
 2. Обновить менеджер пакетов pip:
 
+```
 python -m pip install --upgrade pip
+```
 
 3. Установить selenium:
 
+```
 pip3 install selenium
+```
 
 4. Скачать и установить версию chromedriver, соответствующую версии браузера Chrome: https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 5. Скачать проект smartechQA_Win. Распаковать, открыть файл test_distance.py и прописать путь к chromedriver'у, например:
 
+```
 driver = webdriver.Chrome(executable_path='C:\\chromedriver.exe', options=options)
+```
 
 6. В консоли перейти в папку проекта и запустить тест с помощью команды:
 
+```
 python test_distance.py
+```
